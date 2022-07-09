@@ -1,0 +1,161 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+section {
+    height: 500px;
+    background-color: white;
+}
+
+.hero {
+    background-color: darkgray;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+
+footer {
+    height: 500px;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+li {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+p {
+    margin: 0;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.subtext {
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.hero-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+.button {
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: coral;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 15px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #ef744b;
+}
+
+.button:active {
+    background-color: #A9A9A9;
+    color: #808080;
+}
+
+.socials {
+    padding-bottom: 200px;
+}
+
+.social {
+    margin: 20px;
+}
+
+.logo {
+    height: 80px;
+}
+
+.sub-section {
+    display: flex;
+    content: space-around;
+    padding: 80px;
+}
+
+.sub-section-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+.information {
+    color: black;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+
+.headshot {
+    width: 300px;
+    border-radius: 150px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-card {
+    width: 200px;
+    height: 400px;
+    box-shadow: 5px 5px 20px darkgray;
+    margin: 10px;
+}
+
+.project-image {
+    margin-top: 25px;
+    width: 150px;
+    border-radius: 125px;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: coral;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
