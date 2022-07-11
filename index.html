@@ -5,6 +5,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,600;0,700;1,100;1,200;1,400;1,600&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/92e080663f.js" crossorigin="anonymous"></script>
         <title>Portfolio</title>
         <meta charset="="UTF-8 />
 
@@ -13,11 +14,14 @@
         <section class="hero">
             <nav>
                 <img class="logo" src="./src/images/Teach_logo Kopie.png" alt="Thierry Joerins Logo">
-                <ul>
+                <ul id="navList">
                     <li><a href="#about-me">About Me</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact-me">Contact Me</a></li>
                 </ul>
+                <button class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
             </nav>
             <div class="hero-area">
                 <div class="hero-text">
@@ -83,7 +87,10 @@
                 </div>
             </div>
         </section>
-        <footer id="contact-me"></footer>
+        <footer id="contact-me">
+            <h2>Contact me</h2>
+            <p>thierry.joerin@gmail.com</p>
+        </footer>
 
         <script src="./src/app.js"></script>
     </body>
